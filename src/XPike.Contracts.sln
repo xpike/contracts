@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPike.Contracts", "XPike.Contracts\XPike.Contracts.csproj", "{D03F1668-50D7-44C3-ACEA-825E63C694C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{82A7DA72-D010-47A9-8A76-693EB0FE2CF1}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitignore = ..\.gitignore
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		common.build.props = common.build.props
+		..\xpike-pacakge-icon.png = ..\xpike-pacakge-icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{EBC2B4EA-A335-484D-B218-5B8A2E4C7819}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Library", "..\examples\Example.Library\Example.Library.csproj", "{12F1B4B5-FA15-46B6-8D30-9E8276E0FEE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{A4FC6E4B-8541-4ED9-8DAB-2C4F35C4FEA2}"
+	ProjectSection(SolutionItems) = preProject
+		..\CHANGELOG.md = ..\CHANGELOG.md
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A510ABDD-120F-4E16-A6C8-E3EC9F5A2D17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4479302B-214D-469F-B3D8-5D2C685E66E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPike.Contracts.Tests", "..\tests\XPike.Contracts.Tests\XPike.Contracts.Tests.csproj", "{A6AAB80E-AAC4-4E68-B3D1-D1DD310E70A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D03F1668-50D7-44C3-ACEA-825E63C694C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03F1668-50D7-44C3-ACEA-825E63C694C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03F1668-50D7-44C3-ACEA-825E63C694C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03F1668-50D7-44C3-ACEA-825E63C694C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F1B4B5-FA15-46B6-8D30-9E8276E0FEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F1B4B5-FA15-46B6-8D30-9E8276E0FEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F1B4B5-FA15-46B6-8D30-9E8276E0FEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F1B4B5-FA15-46B6-8D30-9E8276E0FEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AAB80E-AAC4-4E68-B3D1-D1DD310E70A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AAB80E-AAC4-4E68-B3D1-D1DD310E70A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AAB80E-AAC4-4E68-B3D1-D1DD310E70A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AAB80E-AAC4-4E68-B3D1-D1DD310E70A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D03F1668-50D7-44C3-ACEA-825E63C694C2} = {A510ABDD-120F-4E16-A6C8-E3EC9F5A2D17}
+		{12F1B4B5-FA15-46B6-8D30-9E8276E0FEE8} = {EBC2B4EA-A335-484D-B218-5B8A2E4C7819}
+		{A6AAB80E-AAC4-4E68-B3D1-D1DD310E70A9} = {4479302B-214D-469F-B3D8-5D2C685E66E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EE62862-9BCC-4BCC-87D9-F70A2E63B710}
+	EndGlobalSection
+EndGlobal
