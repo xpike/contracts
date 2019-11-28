@@ -1,7 +1,7 @@
 # XPike.Contracts
 
 [![Build Status](https://dev.azure.com/xpike/xpike/_apis/build/status/xpike.contracts?branchName=master)](https://dev.azure.com/xpike/xpike/_build/latest?definitionId=10&branchName=master)
-![Nuget](https://img.shields.io/nuget/v/XPike.Contracts)
+[![Nuget](https://img.shields.io/nuget/v/XPike.Contracts)](https://www.nuget.org/packages/XPike.Contracts/)
 
 Interfaces for various design-by-contract patterns used in certain xPike libraries:
 - DataStores (`XPike.DataStores`)
